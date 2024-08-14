@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #494850;
+    color: white;
+}
+.msgcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px 0px 10px 0px;
+
+    button {
+        height: 40px;
+        width: 120px;
+        background-color: white;
+        color: black;
+        font-size: 15px;
+        border: none;
+        border-radius: 1.6vmin;
+    }
+    p {
+        font-size: 25px;
+        color: gold;
+        margin: 0px 0px 15px 0px;
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.msgcontainer button:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.headingbar {
+    text-align: center;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gamehere {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    background-color: white;
+    color: black;
+    font-size: 35px;
+    font-weight: 550;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 12px 12px 1.2rem rgb(43, 42, 42);
+}
+
+.box:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.resetbutton {
+    display: flex;
+    justify-content: center;
+}
+
+.resetbutton button{
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border: none;
+    border-radius: 1.6vmin;
+    box-shadow: 12px 12px 1.2rem rgb(43, 42, 42);
+}
+
+.resetbutton button:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
